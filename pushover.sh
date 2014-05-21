@@ -12,10 +12,12 @@ TOKEN_FILE="PUSHOVER_TOKEN"
 
 if [[ ! -f "$USER_FILE" ]]; then
 	echo "$USER_FILE file not found!, you need to create this file and put your User Key"
+	exit
 fi
 
 if [[ ! -f "$TOKEN_FILE" ]]; then
 	echo "$TOKEN_FILE file not found!, you need to create this file and put your API Key/Token"
+	exit
 fi
 
 PUSHOVER_USER_KEY=$(cat $USER_FILE);
