@@ -12,14 +12,14 @@ Installation
 ------------
 
 In order to make this work, first you have to set up your "User Key" and your "Api Key", create 2 separated files named
-PUSHOVER_USERKEY, and PUSHOVER_APIKEY with it's respectives keys inside, this allows me to share this script without
+PUSHOVER_USERKEY, and PUSHOVER_APIKEY with it's respective keys inside, this allows me to share this script without
 sharing my (and yours) private keys.
 
-If those files does not exists, this script will warn you and then stop excecution
+If those files does not exists, this script will warn you and then stop execution.
 
 Have fun!
 
-Donation
+Donations?
 --------
 
 Having fun?, buy me a beer!
